@@ -25,6 +25,6 @@ export const _getInvoicesByCustomerEmail = (email) => {
 
 export const _searchCustomers = (search) => {
   return axios.get(
-    "https://intelliauto-backend-production.up.railway.app" + search,
+    "https://intelliauto-backend-production.up.railway.app/order" + search,
   );
 };
