@@ -22,9 +22,9 @@ export const _sellOrder = (data) => {
 export const _getInvoicesByCustomerEmail = (email) => {
   return axios.get(devUrl + "/invoice/" + email);
 };
-
 export const _searchCustomers = (search) => {
   return axios.get(
-    "https://intelliauto-backend-production.up.railway.app/order" + search,
+    "https://intelliauto-backend-production.up.railway.app/user/search/" +
+      search,
   );
 };
