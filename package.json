@@ -1,0 +1,54 @@
+{
+  "name": "my-cart-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "start:dev": "env-cmd -f ./src/environments/dev.env npm start",
+    "start:qa": "env-cmd -f ./src/environments/qa.env npm start",
+    "start:uat": "env-cmd -f ./src/environments/uat.env npm start",
+    "start:prod": "env-cmd -f ./src/environments/prod.env npm start",
+    
+    "build" : "react-scripts build",
+    "build:dev": "env-cmd -f ./src/environments/dev.env npm run build",
+    "build:qa": "env-cmd -f ./src/environments/qa.env npm run build",
+    "build:uat": "env-cmd -f ./src/environments/uat.env npm run build",
+    "build:prod": "env-cmd -f ./src/environments/prod.env npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.6",
+    "@redux-devtools/core": "^3.13.1",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
+    "chart.js": "^3.9.1",
+    "env-cmd": "^10.1.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-csv": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
