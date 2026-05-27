@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // const devUrl = 'http://localhost:8080/accessory'
-const devUrl = "https://intelliauto-backend-production.up.railway.app/user";
+const devUrl =
+  "https://intelliauto-backend-production.up.railway.app/user/accessory";
 // const devUrl = process.env
 
 const { REACT_APP_URL, REACT_APP_ENV_NAME } = process.env;
