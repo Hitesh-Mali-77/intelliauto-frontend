@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const devUrl = "http://localhost:8080/notification";
-const devUrl = "https://intelliauto-backend-production.up.railway.app";
+const devUrl = "https://intelliauto-backend-production.up.railway.app/user";
 
 export const _createNotification = (notification) => {
   return axios.post(devUrl + "/create", notification);

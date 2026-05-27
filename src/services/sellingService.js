@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const devUrl = "http://localhost:8080/selling";
-const devUrl = "https://intelliauto-backend-production.up.railway.app";
+const devUrl = "https://intelliauto-backend-production.up.railway.app/user";
 
 export const _createSelling = (selling) => {
   return axios.post(devUrl + "/create", selling);
