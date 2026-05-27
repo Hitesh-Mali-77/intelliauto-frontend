@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const devUrl = "http://localhost:8080/order";
+// const devUrl = "http://localhost:8080/order";
+const devUrl = "https://intelliauto-backend-production.up.railway.app";
 
 export const _createOrder = (order) => {
   return axios.post(devUrl + "/create", order);
@@ -23,5 +24,7 @@ export const _getInvoicesByCustomerEmail = (email) => {
 };
 
 export const _searchCustomers = (search) => {
-  return axios.get("http://localhost:8080/user/search/" + search);
+  return axios.get(
+    "https://intelliauto-backend-production.up.railway.app" + search,
+  );
 };
