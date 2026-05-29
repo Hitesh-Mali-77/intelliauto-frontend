@@ -13,7 +13,7 @@ const Menu = ({ currentLoginUser }) => {
       <div className="menu-title">
         {template.displayLabel ? (
           <span>
-            <span>C:\Users\hvm77\Downloads\New folder\image.png</span>
+            <span>AutoSphere-Cloud</span>
           </span>
         ) : (
           <MotionPhotosAutoIcon />
